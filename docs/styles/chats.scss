@@ -1,0 +1,40 @@
+/* chats */
+.chats__list{
+    margin-top: 10px;
+    border-top: 1px solid #ebebeb;
+  }
+  .chats__list .chats__chat{
+    padding: 15px;
+    border-bottom: 1px solid #ebebeb;
+  }
+  .chats__chat .chats__content{
+    display: flex; 
+    align-items: flex-start;
+  }
+  .chats__list .chats__chat a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  .chats__user{
+    color: #000;
+  }
+  .chats__last-message{
+    font-size: 12px;
+    color: #bbb;
+  }
+  .chats__preview .chats__user{
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .chats__time{
+    font-size: 10px;
+    color: #bbb;
+  }
+  .chats__list img{
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
